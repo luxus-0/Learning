@@ -24,7 +24,6 @@ public class SumSubstractMultiplyTwoNumbers {
         int substract = x - y;
         System.out.println(x + " - " + y + " = " +substract);
     }
-
     public static void readMultiply() {
         System.out.println("\nMultiply");
         x = getFirstNumber();
