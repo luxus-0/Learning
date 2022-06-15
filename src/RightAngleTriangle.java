@@ -11,9 +11,7 @@ public class RightAngleTriangle {
             int sideBTriangle = number2 * number2;
             int sideCTriangle = number3 * number3;
 
-            if(sideATriangle == sideBTriangle + sideCTriangle || sideBTriangle == sideATriangle + sideCTriangle || sideCTriangle == sideATriangle + sideBTriangle) {
-                return true;
-            }
+            return sideATriangle == sideBTriangle + sideCTriangle || sideBTriangle == sideATriangle + sideCTriangle || sideCTriangle == sideATriangle + sideBTriangle;
         }
         return false;
     }
