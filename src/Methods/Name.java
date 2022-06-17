@@ -1,3 +1,4 @@
+package Methods;
 
 //Napisz metodę, która zwróci Twoje imię,
 class Name {

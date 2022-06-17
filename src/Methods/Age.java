@@ -1,3 +1,5 @@
+package Methods;
+
 //Napisz metodę, która zwróci Twój aktualny wiek.
 public class Age {
     public static void main(String[] args) {

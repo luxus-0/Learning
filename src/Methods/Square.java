@@ -1,4 +1,4 @@
-/*
+package Methods;/*
     Napisz metodę, która jako argument przyjmuje liczbę i zwraca jej pierwiastek kwadratowy
 */
 

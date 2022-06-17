@@ -1,11 +1,11 @@
-/*
-    Utwórz klasę o nazwie MyNumber, której jedyny konstruktor przyjmuje liczbę. Klasa powinna mieć następujące metody
-    MyNumber isOdd() – true jeśli atrybut jest nieparzysty,
-    MyNumber isEven() – true jeśli atrybut jest parzysty,
-    MyNumber sqrt() – pierwiastek z atrybutu,
-    MyNumber pow(MyNumber x) – atrybut podniesiony do potęgi x (przydatnej metody poszukaj w javadoc do klasy Math),
-    MyNumber add(MyNumber x) – zwraca sumę atrybutu i x opakowaną w klasę MyNumber,
-    MyNumber subtract(MyNumber x) – zwraca różnicę atrybutu i x opakowaną w klasę MyNumber.
+package Methods;/*
+    Utwórz klasę o nazwie Methods.MyNumber, której jedyny konstruktor przyjmuje liczbę. Klasa powinna mieć następujące metody
+    Methods.MyNumber isOdd() – true jeśli atrybut jest nieparzysty,
+    Methods.MyNumber isEven() – true jeśli atrybut jest parzysty,
+    Methods.MyNumber sqrt() – pierwiastek z atrybutu,
+    Methods.MyNumber pow(Methods.MyNumber x) – atrybut podniesiony do potęgi x (przydatnej metody poszukaj w javadoc do klasy Math),
+    Methods.MyNumber add(Methods.MyNumber x) – zwraca sumę atrybutu i x opakowaną w klasę Methods.MyNumber,
+    Methods.MyNumber subtract(Methods.MyNumber x) – zwraca różnicę atrybutu i x opakowaną w klasę Methods.MyNumber.
 */
 
 public class MyNumber {
@@ -48,7 +48,7 @@ public class MyNumber {
         double sqrt = sqrt();
         System.out.println(sqrt);
 
-        System.out.println("Power of number");
+        System.out.println("Methods.Power of number");
         double power = Math.pow(nr, 3);
         System.out.println(power);
 

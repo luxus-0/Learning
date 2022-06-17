@@ -1,4 +1,4 @@
-//Napisz metodę, która jako argument przyjmuje 2 liczby i wypisuje ich sumę, różnicę i iloczyn
+package Methods;//Napisz metodę, która jako argument przyjmuje 2 liczby i wypisuje ich sumę, różnicę i iloczyn
 
 import java.util.Scanner;
 

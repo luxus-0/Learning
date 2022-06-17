@@ -1,4 +1,4 @@
-/*
+package Methods;/*
     Napisz metodę, która jako argument przyjmie trzy liczby. Metoda powinna zwrócić true jeśli z odcinków
     o długości przekazanych w argumentach można zbudować trójkąt prostokątny
 */
