@@ -1,11 +1,11 @@
 package Object_and_package;/*
     Utwórz klasę o nazwie Object_and_package.MyNumber, której jedyny konstruktor przyjmuje liczbę. Klasa powinna mieć następujące metody
-    Object_and_package.MyNumber isOdd() – true jeśli atrybut jest nieparzysty,
-    Object_and_package.MyNumber isEven() – true jeśli atrybut jest parzysty,
-    Object_and_package.MyNumber sqrt() – pierwiastek z atrybutu,
-    Object_and_package.MyNumber pow(Object_and_package.MyNumber x) – atrybut podniesiony do potęgi x (przydatnej metody poszukaj w javadoc do klasy Math),
-    Object_and_package.MyNumber add(Object_and_package.MyNumber x) – zwraca sumę atrybutu i x opakowaną w klasę Object_and_package.MyNumber,
-    Object_and_package.MyNumber subtract(Object_and_package.MyNumber x) – zwraca różnicę atrybutu i x opakowaną w klasę Object_and_package.MyNumber.
+    isOdd() – true jeśli atrybut jest nieparzysty,
+    isEven() – true jeśli atrybut jest parzysty,
+    sqrt() – pierwiastek z atrybutu,
+    pow(Object_and_package.MyNumber x) – atrybut podniesiony do potęgi x (przydatnej metody poszukaj w javadoc do klasy Math),
+    add(Object_and_package.MyNumber x) – zwraca sumę atrybutu i x opakowaną w klasę Object_and_package.MyNumber,
+    subtract(Object_and_package.MyNumber x) – zwraca różnicę atrybutu i x opakowaną w klasę Object_and_package.MyNumber.
 */
 
 public class MyNumber {
