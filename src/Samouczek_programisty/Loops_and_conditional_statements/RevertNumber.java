@@ -5,7 +5,7 @@ package Samouczek_programisty.Loops_and_conditional_statements;
     od ostatniej cyfry (np. dla liczby 123 będą to trzy linie z 3, 2, 1)
 * */
 
-public class OperationOnNumber {
+public class RevertNumber {
 
     public static void main(String[] args) {
         printCharacterInSeparateLine(2367);
