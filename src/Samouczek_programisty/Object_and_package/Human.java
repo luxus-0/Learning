@@ -1,5 +1,5 @@
-package Object_and_package;/*
-   Utwórz klasę Object_and_package.Human reprezentującą człowieka, musi posiadać atrybuty takie jak wiek, waga, wzrost, imię i płeć.
+package Samouczek_programisty.Object_and_package;/*
+   Utwórz klasę Samouczek_programisty.Object_and_package.Human reprezentującą człowieka, musi posiadać atrybuty takie jak wiek, waga, wzrost, imię i płeć.
    Klasa powinna także zawierać metody getAge, getWeight, getHeight, getName, isMale
 */
 

@@ -1,4 +1,4 @@
-package Methods;
+package Samouczek_programisty.Methods;
 
 //Napisz metodę, która zwróci Twoje imię,
 class Name {

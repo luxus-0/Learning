@@ -1,4 +1,4 @@
-package Methods;/*
+package Samouczek_programisty.Methods;/*
     Napisz metodę, która jako argument przyjmuje liczbę i zwraca go podniesionego do 3 potęgi
 */
 

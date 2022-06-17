@@ -1,11 +1,11 @@
-package Object_and_package;/*
-    Utwórz klasę o nazwie Object_and_package.MyNumber, której jedyny konstruktor przyjmuje liczbę. Klasa powinna mieć następujące metody
+package Samouczek_programisty.Object_and_package;/*
+    Utwórz klasę o nazwie Samouczek_programisty.Object_and_package.MyNumber, której jedyny konstruktor przyjmuje liczbę. Klasa powinna mieć następujące metody
     isOdd() – true jeśli atrybut jest nieparzysty,
     isEven() – true jeśli atrybut jest parzysty,
     sqrt() – pierwiastek z atrybutu,
-    pow(Object_and_package.MyNumber x) – atrybut podniesiony do potęgi x (przydatnej metody poszukaj w javadoc do klasy Math),
-    add(Object_and_package.MyNumber x) – zwraca sumę atrybutu i x opakowaną w klasę Object_and_package.MyNumber,
-    subtract(Object_and_package.MyNumber x) – zwraca różnicę atrybutu i x opakowaną w klasę Object_and_package.MyNumber.
+    pow(Samouczek_programisty.Object_and_package.MyNumber x) – atrybut podniesiony do potęgi x (przydatnej metody poszukaj w javadoc do klasy Math),
+    add(Samouczek_programisty.Object_and_package.MyNumber x) – zwraca sumę atrybutu i x opakowaną w klasę Samouczek_programisty.Object_and_package.MyNumber,
+    subtract(Samouczek_programisty.Object_and_package.MyNumber x) – zwraca różnicę atrybutu i x opakowaną w klasę Samouczek_programisty.Object_and_package.MyNumber.
 */
 
 public class MyNumber {
@@ -48,7 +48,7 @@ public class MyNumber {
         double sqrt = sqrt();
         System.out.println(sqrt);
 
-        System.out.println("Methods.Power of number");
+        System.out.println("Samouczek_programisty.Methods.Power of number");
         double power = Math.pow(nr, 3);
         System.out.println(power);
 
