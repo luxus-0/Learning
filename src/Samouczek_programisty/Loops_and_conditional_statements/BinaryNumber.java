@@ -46,14 +46,16 @@ class BinaryNumber {
 
     public static void main(String[] args) {
 
-        //version 1
+        System.out.println("Version 1");
         String convertToBinary = convertFromDecimalToBinary(23);
         System.out.println(convertToBinary);
+        System.out.println();
 
-        //version 2
+        System.out.println("Version 2");
         getDecimalToBinary(23);
+        System.out.println("\n-------");
 
-        //version 3
+        System.out.println("Version 3");
         int decimalToBinary = getDecToBinary(23);
         System.out.println(decimalToBinary);
     }
