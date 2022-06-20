@@ -1,4 +1,4 @@
-package Samouczek_programisty.Methods;/*
+package Samouczek_programisty.methods;/*
     Napisz metodę, która jako argument przyjmuje liczbę i zwraca jej pierwiastek kwadratowy
 */
 

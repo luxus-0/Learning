@@ -1,4 +1,4 @@
-package Samouczek_programisty.Object_and_package;/*
+package Samouczek_programisty.objects;/*
     Utwórz klasę o nazwie Samouczek_programisty.Object_and_package.MyNumber, której jedyny konstruktor przyjmuje liczbę. Klasa powinna mieć następujące metody
     isOdd() – true jeśli atrybut jest nieparzysty,
     isEven() – true jeśli atrybut jest parzysty,

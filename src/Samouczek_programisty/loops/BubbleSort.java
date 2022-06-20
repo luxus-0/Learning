@@ -1,4 +1,4 @@
-package Samouczek_programisty.Loops_and_conditional_statements;
+package Samouczek_programisty.loops;
 
 /*
     Napisz metodę, która pobierze tablicę liczb całkowitych i posortuje ją w kolejności

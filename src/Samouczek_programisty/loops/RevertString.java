@@ -1,4 +1,4 @@
-package Samouczek_programisty.Loops_and_conditional_statements;
+package Samouczek_programisty.loops;
 
 /*
 Utwórz metodę, która jako argument pobierze obiekt klasy String i zwróci “odwrócony” argument.

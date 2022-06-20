@@ -1,4 +1,4 @@
-package Samouczek_programisty.Loops_and_conditional_statements;
+package Samouczek_programisty.loops;
 
 /*
     1.Utwórz metodę pobierającą dodatnią liczbę całkowitą X, która wyświetli na ekranie liczby od zera do X,

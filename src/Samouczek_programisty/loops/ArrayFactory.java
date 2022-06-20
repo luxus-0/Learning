@@ -1,4 +1,4 @@
-package Samouczek_programisty.Loops_and_conditional_statements;
+package Samouczek_programisty.loops;
 
 /*
 Napisz klasę ArrayFactory, która w konstruktorze pobierze liczbę całkowitą X.

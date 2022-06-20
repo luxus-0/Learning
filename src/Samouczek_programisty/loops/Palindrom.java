@@ -1,4 +1,4 @@
-package Samouczek_programisty.Loops_and_conditional_statements;
+package Samouczek_programisty.loops;
 
 /*
     Utwórz metodę, pobierającą łańcuch znaków, która sprawdzi czy jest on palindromem.
