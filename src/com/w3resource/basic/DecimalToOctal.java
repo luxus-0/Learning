@@ -9,7 +9,7 @@ Input a decimal number: 15
 
 import java.util.Scanner;
 
-class ConvertFromDecimalToOctal {
+class DecimalToOctal {
 
     public static int readDecimal(String message) {
         System.out.println(message);

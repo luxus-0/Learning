@@ -9,7 +9,7 @@ Input a decimal number: 15
 
 import java.util.Scanner;
 
-class ConvertFromDecimalToHexadecimal {
+class DecimalToHexadecimal {
 
     public static int readDecimal(String message) {
         System.out.println(message);

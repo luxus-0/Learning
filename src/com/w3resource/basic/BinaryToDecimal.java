@@ -9,7 +9,7 @@ Input a binary number: 100
 Expected Output
 Decimal Number: 4
 * */
-public class ConvertFromBinaryToDecimal {
+public class BinaryToDecimal {
 
     public static Long readBinaryNumber(String message) {
         System.out.println(message);
