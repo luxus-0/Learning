@@ -7,6 +7,7 @@ Expected Output
 Reverse string: xof nworb kciuq ehT
 * */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 class ReverseString {
@@ -27,7 +28,18 @@ class ReverseString {
         char[] stringArray = str.toCharArray();
 
         for(int i = stringArray.length - 1; i >= 0; i--) {
-            System.out.println(stringArray[i]);
+            System.out.print(stringArray[i]);
+        }
+    }
+
+    //Third version
+    public static void printReverseString3(String str) {
+        byte[] byteArray = str.getBytes();
+        byte[] result = new byte[byteArray.length];
+
+        for(int i = 0; i < byteArray.length; i++) {
+            result[i] = byteArray[byteArray.length - i - 1];
+            System.out.println(Arrays.toString(result));
         }
     }
 
@@ -35,7 +47,10 @@ class ReverseString {
         String reverseStr = printReverseString();
         System.out.println(reverseStr);
 
-        String str = "Ala ma kota a kot ma Alę";
+        String str = "Ala ma kota";
         printReverseString2(str);
+
+        String str2 = "Jutro jest pogoda";
+        printReverseString3(str2);
     }
 }
