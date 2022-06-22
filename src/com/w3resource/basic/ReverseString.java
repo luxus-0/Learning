@@ -7,8 +7,7 @@ Expected Output
 Reverse string: xof nworb kciuq ehT
 * */
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 class ReverseString {
 
@@ -19,7 +18,7 @@ class ReverseString {
 
     public static String printReverseString() {
         String reverse = readString("Input String");
-        StringBuilder stringBuilder = new StringBuilder(reverse);
+        StringBuilder stringBuilder = new StringBuilder(reverse);//StringBuilder or StringBuffer
         return stringBuilder
                 .reverse()
                 .toString();
@@ -27,10 +26,10 @@ class ReverseString {
 
     //Second version
     public static void printReverseString2(String str) {
-        char[] stringArray = str.toCharArray();
+        char[] characterArray = str.toCharArray();
 
-        for (int i = stringArray.length - 1; i >= 0; i--) {
-            System.out.print(stringArray[i]);
+        for (int i = characterArray.length - 1; i >= 0; i--) {
+            System.out.print(characterArray[i]);
         }
     }
 
@@ -45,16 +44,34 @@ class ReverseString {
         System.out.println(new String(result));
     }
 
-    public static void main(String[] args) {
-        String reverseStr = printReverseString();
-        System.out.println(reverseStr);
+    //Fourth - Collection
+    public static void printReverseString4(String str) {
+        char[] charArray = str.toCharArray();
+        List<Character> characterList = new ArrayList<>();
 
-        String str = "Ala ma kota";
-        printReverseString2(str);
+        for(Character c : charArray) {
+            characterList.add(c);
+        }
+        Collections.reverse(characterList);
+
+        for (Character c : characterList) {
+            System.out.println(c);
+        }
+    }
+
+    public static void main(String[] args) {
+        String str = printReverseString();
+        System.out.println(str);
+
+        String str2 = "Ala ma kota";
+        printReverseString2(str2);
 
         System.out.println();
 
-        String str2 = "Jutro jest pogoda";
-        printReverseString3(str2);
+        String str3 = "Jutro jest pogoda";
+        printReverseString3(str3);
+
+        String str4 = "Easy day";
+        printReverseString4(str4);
     }
 }
