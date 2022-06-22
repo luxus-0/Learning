@@ -49,13 +49,14 @@ class ReverseString {
         char[] charArray = str.toCharArray();
         List<Character> characterList = new ArrayList<>();
 
-        for(Character c : charArray) {
+        for (Character c : charArray) {
             characterList.add(c);
         }
+
         Collections.reverse(characterList);
 
         for (Character c : characterList) {
-            System.out.println(c);
+            System.out.print(c);
         }
     }
 
