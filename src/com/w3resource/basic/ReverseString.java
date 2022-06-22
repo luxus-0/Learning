@@ -20,14 +20,16 @@ class ReverseString {
     public static String printReverseString() {
         String reverse = readString("Input String");
         StringBuilder stringBuilder = new StringBuilder(reverse);
-        return stringBuilder.reverse().toString();
+        return stringBuilder
+                .reverse()
+                .toString();
     }
 
     //Second version
     public static void printReverseString2(String str) {
         char[] stringArray = str.toCharArray();
 
-        for(int i = stringArray.length - 1; i >= 0; i--) {
+        for (int i = stringArray.length - 1; i >= 0; i--) {
             System.out.print(stringArray[i]);
         }
     }
@@ -37,10 +39,10 @@ class ReverseString {
         byte[] byteArray = str.getBytes();
         byte[] result = new byte[byteArray.length];
 
-        for(int i = 0; i < byteArray.length; i++) {
+        for (int i = 0; i < byteArray.length; i++) {
             result[i] = byteArray[byteArray.length - i - 1];
-            System.out.println(Arrays.toString(result));
         }
+        System.out.println(new String(result));
     }
 
     public static void main(String[] args) {
@@ -49,6 +51,8 @@ class ReverseString {
 
         String str = "Ala ma kota";
         printReverseString2(str);
+
+        System.out.println();
 
         String str2 = "Jutro jest pogoda";
         printReverseString3(str2);
