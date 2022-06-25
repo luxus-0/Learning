@@ -19,9 +19,19 @@ public class CapitalizeFirstLetterInWords {
         }
         return capitalizeLetterBuilder.toString();
     }
+
+    private static String capitalizeFirstLetterInWordsV2(String str) {
+        char firstLetter = str.charAt(0);
+        char capitalizeFirstLetter = Character.toUpperCase(firstLetter);
+        return str.replace(firstLetter, capitalizeFirstLetter);
+    }
     
     public static void main(String[] args) {
         String capitalizeLetter = capitalizeFirstLetterInWords();
         System.out.println(capitalizeLetter);
+
+        String str = "what you do in free time?";
+        String capitalize = capitalizeFirstLetterInWordsV2(str);
+        System.out.println(capitalize);
     }
 }
