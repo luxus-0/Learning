@@ -38,6 +38,22 @@ public class Exercise61_ReverseWord {
         return output.toString();
     }
 
+    public static String reverseTheOrderOfWords(String sentence) {
+        if (sentence == null) {
+            return null;
+        }
+
+        StringBuilder output = new StringBuilder();
+        String[] words = sentence.split(" ");
+
+        for (int i = words.length - 1; i >= 0; i--) {
+            output.append(words[i]);
+            output.append(" ");
+        }
+
+        return output.toString().trim();
+    }
+
     public static void main(String[] args) {
         String str = getString("Input String");
         String reverse = reverseWord(str);
@@ -47,5 +63,10 @@ public class Exercise61_ReverseWord {
 
         String reverse2 = reverseWordV2(str);
         System.out.println(reverse2);
+
+        System.out.println("------------------");
+
+        String reverse3 = reverseTheOrderOfWords(str);
+        System.out.println(reverse3);
     }
 }
