@@ -38,6 +38,6 @@ public class Exercise64 {
         System.out.println(number2);
 
         boolean checkCommonDigitInBothNumbers = checkConditionByResult(number1, number2);
-        System.out.println(checkCommonDigitInBothNumbers);
+        System.out.printf("Common digit in both numbers: %s", checkCommonDigitInBothNumbers);
     }
 }
