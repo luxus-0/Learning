@@ -10,7 +10,7 @@ Input an integer: 25
 
 import java.util.Scanner;
 
-public class Exercise_57_CountingFactors {
+public class Exercise57_CountingFactors {
 
     private static int getInt(String message) {
         System.out.println(message);

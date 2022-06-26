@@ -7,7 +7,7 @@ Sample Output:
 Input a Sentence: the quick brown fox jumps over the lazy dog.
 The Quick Brown Fox Jumps Over The Lazy Dog.
 * */
-public class Exercise_58_CapitalizeFirstLetterInWords {
+public class Exercise58_CapitalizeFirstLetterInWords {
 
     private static String capitalizeFirstLetter() {
         String str = "the quick brown fox jumps over the lazy dog";
