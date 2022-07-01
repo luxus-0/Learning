@@ -15,7 +15,7 @@ public class Exercise112 {
         return number * calculateFactorial(number - 1);
     }
 
-    //
+
     public static long calculateFactorialVersion2(int number) {
         long fact = 1;
         for(int i = 2; i <= number; i++) {
