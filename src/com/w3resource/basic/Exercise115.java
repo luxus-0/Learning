@@ -8,7 +8,6 @@ true
 * */
 
 public class Exercise115 {
-
     public static boolean isPalindrome() {
         int number = 151;
         int remainder, reverseNumber = 0;
