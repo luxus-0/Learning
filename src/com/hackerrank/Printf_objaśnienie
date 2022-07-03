@@ -1,0 +1,1 @@
+System.out.printf("%-15s%03d%n", sl, x); ////left justified using 15 character, integer express 3 digit
