@@ -6,7 +6,6 @@ public class StringChallenge {
     public static String readString() {
         return new Scanner(System.in).nextLine();
     }
-
     public static void checkLexicographicallyLarger(String A, String B) {
         if (A.charAt(0) > B.charAt(0)) {
             System.out.println("Yes");
