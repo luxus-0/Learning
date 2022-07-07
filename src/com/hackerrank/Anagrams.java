@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Anagrams {
 
-    static boolean isAnagram(String a, String b) {
+    public static boolean isAnagram(String a, String b) {
         char[] strArray1 = a.toLowerCase().toCharArray();
         char[] strArray2 = b.toLowerCase().toCharArray();
 
@@ -20,7 +20,7 @@ public class Anagrams {
         return Arrays.equals(strArray1, strArray2);
     }
 
-    static boolean isAnagram2(String a, String b) {
+    public static boolean isAnagram2(String a, String b) {
         char[] charArray = a.toCharArray();
         char[] charArray2 = b.toCharArray();
 
@@ -44,6 +44,16 @@ public class Anagrams {
         }
     }
 
+    public static boolean isAnagram3(String str, String str2) {
+        for(int i = 0; i < str.length(); i++) {
+            for(int j = 0; j < str2.length(); j++) {
+                if(str.charAt(i) == str2.charAt(j))
+                    return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String a = scan.next();
@@ -54,5 +64,8 @@ public class Anagrams {
 
         boolean anagram2 = isAnagram2(a, b);
         System.out.println(anagram2);
+
+        boolean anagram3 = isAnagram3(a, b);
+        System.out.println(anagram3);
     }
 }
