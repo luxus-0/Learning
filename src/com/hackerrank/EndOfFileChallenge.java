@@ -1,4 +1,4 @@
-package com.hackerrank.SixChallenge;
+package com.hackerrank;
 
 import java.util.Scanner;
 
