@@ -1,4 +1,4 @@
-package com.hackerrank.nineChallenge;
+package com.hackerrank;
 
 import java.time.LocalDate;
 import java.util.Calendar;
