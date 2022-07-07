@@ -32,26 +32,18 @@ public class Anagrams {
             }
         }
 
+        int[] count = new int[256];
         for (int i = 0; i < a.length(); i++) {
-            charArray[i]++;
-            charArray2[i]--;
-        }
+            count[a.charAt(i)]++;
+            count[b.charAt(i)]--;
 
-        if (a.compareTo(b) != 0) {
-            return true;
-        } else {
-            return false;
         }
-    }
-
-    public static boolean isAnagram3(String str, String str2) {
-        for(int i = 0; i < str.length(); i++) {
-            for(int j = 0; j < str2.length(); j++) {
-                if(str.charAt(i) == str2.charAt(j))
-                    return true;
+        for (int i = 0; i < 256; i++) {
+            if (count[i] != 0) {
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     public static void main(String[] args) {
@@ -64,8 +56,5 @@ public class Anagrams {
 
         boolean anagram2 = isAnagram2(a, b);
         System.out.println(anagram2);
-
-        boolean anagram3 = isAnagram3(a, b);
-        System.out.println(anagram3);
     }
 }
