@@ -1,4 +1,4 @@
-package com.hackerrank.eightChallenge;
+package com.hackerrank;
 
 import java.util.Scanner;
 
