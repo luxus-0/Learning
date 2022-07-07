@@ -1,4 +1,4 @@
-package com.hackerrank.secondChallenge;
+package com.hackerrank;
 
 import java.util.Scanner;
 
