@@ -1,10 +1,10 @@
-package com.hackerrank.tenChallenge;
+package com.hackerrank;
 
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class CurrencyFormatter {
+public class NumberFormat_Currency {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double payment = scanner.nextDouble();
