@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexString {
-    private final static String REGEX = "[0-2][0-5][0-5][.][0-2][0-5][0-5][.][0-2][0-5][0-5]";
+    private final static String REGEX = "[0-256]{1,3}[.][0-256]{1,3}[.][0-256]{1,3}";
     public static String readIpAddress() {
         return new Scanner(System.in).next();
     }
@@ -39,10 +39,24 @@ public class RegexString {
         }
     }
 
+    public static boolean checkIpAddressWithRegex2() {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+            String ipAddress = sc.next();
+            return ipAddress.matches(REGEX);
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         String ip = readIpAddress();
+
         boolean checkIp = checkIpAddressWithoutRegex(ip);
         System.out.println(checkIp);
+
         checkIpAddressWithRegex();
+
+        boolean isCorrectIp = checkIpAddressWithRegex2();
+        System.out.println(isCorrectIp);
     }
 }
