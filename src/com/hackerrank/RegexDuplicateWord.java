@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 public class RegexDuplicateWord {
 
     public static String deleteDuplicateWord(String input) {
+
         String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
 
             Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
