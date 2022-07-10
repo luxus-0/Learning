@@ -8,13 +8,13 @@ import java.util.regex.Pattern;
 
 public class ValidUsernameChecker {
 
-    private final static String REGEX = "^[a-zA-Z]\\w{7,29}$";
+    private static final String REGEX = "^[a-zA-Z]\\w{7,29}$";
+    private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void validUsername() {
         int n = Integer.parseInt(scanner.nextLine());
         int i = 0;
-        while(i < n) {
+        while (i < n) {
             i++;
             String username = scanner.nextLine();
             Pattern pattern = Pattern.compile(REGEX);
@@ -27,5 +27,26 @@ public class ValidUsernameChecker {
 
         }
         scanner.close();
+    }
+
+    public static void validUsernameV2() {
+        int n = Integer.parseInt(scanner.nextLine());
+        int i = 0;
+        while (i < n) {
+            i++;
+            String username = scanner.nextLine();
+            if (username.matches(REGEX)) {
+                System.out.println("Valid");
+            } else {
+                System.out.println("Invalid");
+            }
+
+        }
+        scanner.close();
+    }
+
+    public static void main(String[] args) {
+        validUsername();
+        validUsernameV2();
     }
 }
