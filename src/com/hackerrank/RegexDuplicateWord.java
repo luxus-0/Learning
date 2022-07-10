@@ -32,7 +32,5 @@ public class RegexDuplicateWord {
 
         String removeDuplicate5 = deleteDuplicateWord("Hello hello Ab aB");
         System.out.println(removeDuplicate5);
-
-
     }
 }
