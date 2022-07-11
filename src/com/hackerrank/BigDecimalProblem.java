@@ -21,7 +21,12 @@ public class BigDecimalProblem {
 
        scanner.close();
 
-        Arrays.sort(s, Collections.reverseOrder(Comparator.comparing(BigDecimal::new)));
+       Arrays.sort(s, Collections.reverseOrder(Comparator.comparing(BigDecimal::new)));
+
+       //or
+        //Arrays.sort(s, (s1, s2) -> new BigDecimal(s2).compareTo(new BigDecimal(s1)));
+
+
         for(String z : s){
             System.out.println(z);
         }
